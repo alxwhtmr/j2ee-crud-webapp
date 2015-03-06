@@ -1,0 +1,11 @@
+            <div id="footer">
+                <!--footer-->
+                <hr>
+                <!--<p id="footerText">[ footer text ]</p>-->
+                <div id="footerText">
+                    
+                </div>
+            </div>
+        </div> <!-- main end -->
+    </body>
+</html>

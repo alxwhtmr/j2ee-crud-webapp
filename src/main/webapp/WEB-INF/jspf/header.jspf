@@ -1,0 +1,86 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/buttons-min.css">
+        <link rel="stylesheet" type="text/css" href="css/forms-min.css">
+        <title>EE CRUD web app</title>
+    </head>
+    <body id="mainBody">
+        <div id="main">
+            <div id="header">
+                <a href="/musclesWeb">
+                    <img src="${initParam.imagePath}logo.png" id="logo" alt="logo">
+                </a>
+                <!--<img src="#" id="logoText" alt="NC">-->
+                <div id="logoText">EE CRUD web app</div>
+            </div>
+            <div id="headerButtonsLayer">
+                <div id="headerButtonsLayerLeftMargin">
+                </div>
+                <div id="headerButtonsLayerRightMargin">
+                    
+                </div>
+                <div id="headerButtonsArea">
+                    <div class="headerButtonArea">
+                        <a href="/musclesWeb">
+                            <button class="button-small button-green pure-button">Main</button>
+                        </a>
+                    </div>
+                    <div class="headerButtonArea">
+                        <script type="text/javascript">
+                            // Popup window code
+                            function newPopupHeader(url) {
+                                console.log("loc=" + window.location + "#");
+//                                window.location = window.location + "#";
+                                popupWindow = window.open(
+                                    url,'popUpWindow',
+                                    'height=630,width=630,left=100,top=50,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no,status=yes')
+                            }
+                        </script>
+                        <a href="JavaScript:newPopupHeader('new');">
+                            <button class="button-small button-green pure-button">New</button>
+                        </a>
+                    </div>
+                    <div class="headerButtonArea">
+                        <a href="showItems?all">
+                            <button class="button-small button-green pure-button">Show all</button>
+                        </a>
+                    </div>
+                    <div id="headerSearchArea">
+                        <script>
+                            function submitSearch() {
+                                document.forms['searchForm'].submit();
+                            }
+                        </script>
+                        <form class="pure-form" name="searchForm" action="search" method="GET">
+                            <fieldset>
+                                <input class="pure-input-rounded" type="search" placeholder="search" name="searchString">
+                                <a href="#">
+                                    <button class="button-small button-green pure-button" onclick="submitSearch()">
+                                        Search
+                                    </button>
+                                </a>
+                            </fieldset>
+                        </form>
+<!--                        <form class="pure-form" id="searchForm">
+                            <fieldset>
+                                <input class="pure-input-rounded" type="search" placeholder="search">
+                                <a href="search">
+                                    <button type="submit" action="search" method="GET" class="button-small button-green pure-button" onclick="submitSearch()">
+                                        Search
+                                    </button>
+                                    <button class="button-small button-green pure-button" onclick="submitSearch()">
+                                        Search
+                                    </button>
+                                </a>
+                            </fieldset>
+                        </form>-->
+                    </div>
+                </div>
+                
+            </div>

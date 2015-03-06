@@ -1,0 +1,380 @@
+#mainBody {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1100px;
+    text-align: center;
+    margin: 20px auto;
+    border: solid
+        #99D6EB;
+}
+
+#main { 
+    background: 
+        #E0E0E0;
+}
+
+#header {
+    height: 220px;
+    background:
+         #E0E0E0;
+}
+
+#headerButtonsLayer {
+    height: 40px;
+    background: 
+        #B0B0B0;
+}
+
+#headerButtonsLayerLeftMargin {
+    background: #B0B0B0;
+    float: left;
+    width: 100px;
+    height: 34px;
+    border-top: solid #99D6EB;
+    border-bottom: solid #99D6EB;
+}
+
+#headerButtonsLayerRightMargin {
+    background: #B0B0B0;
+    float: right;
+    width: 100px;
+    height: 34px;
+    border-top: solid #99D6EB;
+    border-bottom: solid #99D6EB;
+}
+
+#headerButtonsArea {
+    width: 600px;
+    height: 35px;
+    background:  	#B0B0B0 ;
+    float: right;
+    margin-right: 50px;
+}
+
+.headerButtonArea {
+    height: 35px;
+    width: 90px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 1px;
+}
+
+.headerButton {
+    display:inline-block;
+    min-width: 50px;
+    width: 80px;
+    height: 80%;
+}
+
+#headerSearchArea {
+    height: 35px;
+    width: 250px;
+    float: right;
+    background:  	#B0B0B0 ;
+}
+
+#headerSearchFieldArea {
+    height: 35px;
+    width: 130px;
+    float: right;
+    background:  	#B0B0B0 ;
+}
+
+#headerSearchField {
+    size: 15;
+    height: 60%;
+}
+
+#headerSearchBtn {
+    height: 35px;
+    width: 80px;
+    float: right;
+    background:  	#B0B0B0 ;
+    margin-left: 20px;
+}
+
+#logo {
+    height: 155px;
+    width: 155px;
+    float: left;
+    margin-left: 30px;
+    background: #E0E0E0;
+}
+
+#logoText {
+    float: left;
+    margin: 60px 0 0 200px;
+    font-family: Aharoni, Courier, monospace;
+    font-size: 70px;
+    color: 
+        #585858;
+}
+
+#footer {
+    height: 60px;
+    width: 100%;
+    clear: left;
+    font-family: Courier;
+    background: 
+        #ccc;
+}
+
+#footerText {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 60%;
+    height: 50%;
+}
+
+hr {
+    border: 0;
+    background-color: #333;
+    height: 1px;
+    margin: 0 25px;
+    width: 90%;
+}
+
+#indexLeftColumn {
+    margin: 50px 10px 0px 10px;
+    width: 30%;
+    float: left;
+    border: solid #ccc;
+    border-radius: 0.5em;
+    text-align: left;
+    font-family: Candara;
+    font-size: 20px;
+}
+
+#usage {
+    margin: 0 5px 0 5px;
+}
+
+
+#indexRightColumn {
+    width: 60%;
+    float: left;
+    background: 
+        #E0E0E0;
+    margin-top: 50px;
+}
+
+.groupBox {
+    height: 130px;
+    width: 25%;
+    margin: 0px 14px 0px;
+    margin-bottom: 100px;
+    float: inherit;
+    background: #E0E0E0;;
+}
+
+.groupBox a {
+    color: #008B8B;
+    text-decoration: none;
+}
+
+.groupLabelText {
+    line-height: 150%;
+    font-size: x-large;
+}
+
+.bparts {
+    width: 100%;
+    border: solid #99D6EB;
+    border-width: 2px;
+    border-radius: 1em;
+}
+
+.bparts:hover {
+    border: solid #7AABBC;
+}
+
+#showItemsLeftColumn {
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 20%;
+    float: left;
+    border: solid #b2d2d2;
+    border-width: 1px;
+    background: 
+        #D8D8D8;
+}
+
+.showItemsGroupBox {
+    margin: 15px 22px 10px 15%;
+    padding: 13px;
+    display: block;
+    background-color: 
+        white;
+    border: solid #80B2E6;
+    border-width: 2px;
+    border-radius: 1em;
+    width: 130px;
+}
+
+.showItemsGroupBox:hover {
+    background-color: white;        
+    border: solid  
+        #70B8FF;
+    border-width: 4px;
+}
+
+.showItemsGroupBox a {
+    color: 
+        #80B2E6;
+    text-decoration: none;
+}
+
+.groupText {
+    line-height: 25px;
+    font-size: x-large;
+}
+
+#selectedGroup {
+    background-color: 
+        #4D94DB;
+    width: 146px;
+}
+
+#showItemsRightColumn {
+    margin-top: 30px;
+    min-height: 500px;
+    width: 75%;
+    float: left;
+    background: 
+        #E0E0E0;
+}
+
+#nothing {
+    margin-top: 100px;
+    font-family: Broadway;
+    font-size: 25px;
+    color: #4D94DB;
+}
+
+.itemDetails {
+    width: 100%;
+    height: 200px;
+    background: 
+        #E0F5FF;
+    margin: 10px 10px 15px 20px;
+    border: solid 
+        #99D6EB;
+    border-width: 2px;
+    border-radius: 0.3em;
+}
+
+.itemDetails:hover {
+    border: solid 
+        #70B8FF;
+    border-width: 3px;
+}
+
+.itemNameBox {
+    width: 25%;
+    float: left;
+    font-family: Century Gothic, Calibri;
+    font-size: 22px;
+    margin: 10px 10px 10px 10px;
+}
+
+.itemDescriptionBox {
+    width: 30%;
+    height: 100%;
+    font-family: Century Gothic, Calibri;
+    font-size: 13px;
+    text-align: left;
+    padding: 0px 10px 0px 10px;
+    float: left;
+    background:
+        #F0FAFF;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.itemFunctionBox {
+    width: 20%;
+    height: 100%;
+    font-family: Century Gothic, Calibri;
+    font-size: 13px;
+    text-align: left;
+    float: left;
+    padding: 0 10px 0 10px;
+}
+
+.itemEditDelBox {
+    width: 12%;
+    height: 100%;
+    background: 
+         #F0FAFF;
+    float: right;
+}
+
+#editDelSeparator {
+    margin: 0 5px 0 5px;
+    border: solid #b2d2d2;
+    border-width: 1px;
+}
+
+.itemEdit {
+    width: 100%;
+    height: 50%;
+    background: 
+         #F0FAFF;
+}
+
+.itemDel {
+    width: 100%;
+    height: 50%;
+}
+
+.icons {
+    margin-top: 20px;
+    width: 35px;
+    height: 35px;
+}
+
+
+#newRecordDiv {
+    margin-top: 20px;
+    margin-left: 20px;
+    border: solid #b2d2d2;
+    border-width: 2px;
+    background: #ccc;
+    width: 570px;
+    height: 570px;
+    text-align: left;
+    font-family: Calibri;
+    font-size: 16px;
+}
+
+#newRecordDiv form {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#hiddenGroupId {
+    visibility: hidden;
+}
+
+.button-small {
+    font-size: 85%;
+}
+
+.button-green,
+.button-secondary {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: rgb(66, 184, 221);
+}
+
+.button-green {
+    background: 
+        #585858;
+}
+
+.button-green:hover {
+    background: 
+        #4D94DB;
+}
